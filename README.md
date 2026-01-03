@@ -186,42 +186,6 @@ Using Pydantic with OpenAI's structured output API ensures:
 - Easier debugging and logging
 - Validation of tool inputs
 
-### Message History
-The agent maintains conversation context, allowing:
-- Follow-up questions
-- Multi-step operations
-- Context-aware responses
 
-## Safety Features
 
-- Command execution timeout (30 seconds)
-- Blocked dangerous commands (rm -rf /, dd, etc.)
-- File system access limited to current working directory
-- UTF-8 encoding with error handling
-- Input validation on all tools
 
-## Limitations
-
-- Tools use simple string inputs (not full JSON for simplicity)
-- Command execution is blocking
-- No parallel tool execution
-- Limited to single OpenAI API key
-- No conversation memory persistence
-
-## Future Enhancements
-
-- Add more coding tools (git operations, dependency management)
-- Implement parallel tool execution
-- Add conversation history persistence
-- Support for multiple LLM providers
-- Enhanced code analysis tools
-- Integration with IDEs
-- Automated testing capabilities
-
-## License
-
-MIT
-
-## Credits
-
-Based on the weather agent architecture from Udemy AI Course.
