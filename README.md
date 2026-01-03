@@ -1,6 +1,6 @@
 # Coding Agent
 
-An AI coding assistant that uses explicit **Chain-of-Thought (CoT)** reasoning with structured outputs. Built using the same architecture pattern as the weather agent.
+An AI coding assistant that uses explicit **Chain-of-Thought (CoT)** reasoning with structured outputs.
 
 ## How It Works
 
