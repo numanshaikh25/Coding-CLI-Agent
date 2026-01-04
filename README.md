@@ -53,7 +53,7 @@ You: Build a landing page for a bakery website
 ## Tech Stack
 
 - **Python 3.12+**
-- **OpenAI GPT-4o** - LLM with structured outputs
+- **OpenAI GPT-5-mini** - LLM with structured outputs
 - **Pydantic** - Response validation and type safety
 - **httpx** - HTTP client (inherited from weather agent)
 - **python-dotenv** - Environment variable management
